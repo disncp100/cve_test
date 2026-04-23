@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="b9-PMl8Eqf4Y2DCSccbp">
-    <mxGraphModel dx="2738" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6000" pageHeight="6000" math="0" shadow="0">
+    <mxGraphModel dx="1856" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6000" pageHeight="6000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="oQbcHvXXmp1J8hQ4mMWe-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;API Gateway&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="1310" y="1337" as="geometry" />
+        </mxCell>
+        <mxCell id="f95knCsWnsaZQK9TrVuf-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot; align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Identity &amp;amp; Authentication&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Supports API Key, JWT, OAuth 2.0 / OIDC, mTLS, and multi‑auth mechanisms at the gateway layer.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Authorization &amp;amp; Policy Control&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Fine‑grained access control based on policies, scopes, roles, JWT claims, API / version / endpoint.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Traffic Protection&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Built‑in rate limiting, quotas, throttling, and abuse prevention (per API / consumer / endpoint).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transport Security&lt;/strong&gt;&lt;br&gt;&lt;br&gt;TLS termination and mutual TLS (mTLS) for secure client‑to‑API communication.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Security Integration &amp;amp; Extensibility&lt;/strong&gt;&lt;br&gt;&lt;br&gt;IP filtering, request validation, custom security plugins, and integration with WAF / Bot protection.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Audit &amp;amp; Observability&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Centralized logging, metrics, and audit trails for API access and security events.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="439" width="680" x="590" y="1151" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
