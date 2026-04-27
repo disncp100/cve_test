@@ -1,19 +1,19 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="6l4lwdi2urKhOwf3eTIE">
-    <mxGraphModel dx="2520" dy="1602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2551" dy="1602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NmYCuwZnY43wRP365Lco-1" edge="1" parent="1" source="NmYCuwZnY43wRP365Lco-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" target="NmYCuwZnY43wRP365Lco-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NmYCuwZnY43wRP365Lco-2" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;labelBackgroundColor=none;html=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontSize=18;fontStyle=1" value="Cloud Firwall" vertex="1">
-          <mxGeometry height="529.75" width="430" x="902" y="560.43" as="geometry" />
+        <mxCell id="NmYCuwZnY43wRP365Lco-2" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;labelBackgroundColor=none;html=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontSize=18;fontStyle=1" value="Alibaba&amp;nbsp;&lt;div&gt;Cloud Firwall&lt;/div&gt;" vertex="1">
+          <mxGeometry height="526.57" width="452" x="902" y="560.43" as="geometry" />
         </mxCell>
         <mxCell id="NmYCuwZnY43wRP365Lco-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#000000;" value="Consumer Protection — Edge Security Architecture" vertex="1">
           <mxGeometry height="32" width="400" x="400" y="-220" as="geometry" />
         </mxCell>
-        <mxCell id="NmYCuwZnY43wRP365Lco-4" parent="1" style="rounded=1;fillColor=#E8F5E9;strokeColor=#C8E6C9;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;spacing=6;fontSize=18;" value="&lt;b&gt;Edge Layer&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Anti-DDoS Pro · Edge WAF · Bot Management · Rate Limit · SSL / TLS&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="NmYCuwZnY43wRP365Lco-4" parent="1" style="rounded=1;fillColor=#E8F5E9;strokeColor=#C8E6C9;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;spacing=6;fontSize=18;" value="&lt;b&gt;Tencent Edge One&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="146" width="1040" x="80" y="90" as="geometry" />
         </mxCell>
         <mxCell id="NmYCuwZnY43wRP365Lco-5" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=18;fontStyle=2;fontColor=#333333;" value="Static content routes" vertex="1">
@@ -23,7 +23,7 @@
           <mxGeometry height="84" width="309.55" x="655" y="396.68" as="geometry" />
         </mxCell>
         <mxCell id="NmYCuwZnY43wRP365Lco-8" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=18;fontStyle=2;fontColor=#333333;" value="Application routes" vertex="1">
-          <mxGeometry height="20" width="200" x="-32" y="770.3" as="geometry" />
+          <mxGeometry height="20" width="200" x="-11" y="770.3" as="geometry" />
         </mxCell>
         <mxCell id="NmYCuwZnY43wRP365Lco-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;rounded=1;fillColor=#E3F2FD;strokeColor=#BBDEFB;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;spacing=4;fontSize=18;" value="&lt;div&gt;&lt;b&gt;API paths&lt;/b&gt;&lt;br&gt;/api · /graphql · /auth&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="240" x="62" y="799.38" as="geometry" />
@@ -77,19 +77,22 @@
           <mxGeometry height="80.34" width="70" x="1170" y="771.96" as="geometry" />
         </mxCell>
         <mxCell id="NmYCuwZnY43wRP365Lco-21" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;fontSize=18;" value="Internet" vertex="1">
-          <mxGeometry height="70" width="70" x="1690" y="790.3" as="geometry" />
+          <mxGeometry height="70" width="70" x="1543" y="788.3" as="geometry" />
         </mxCell>
-        <mxCell id="NmYCuwZnY43wRP365Lco-22" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.waf_web_application_firewall;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=18;" value="WAF" vertex="1">
+        <mxCell id="NmYCuwZnY43wRP365Lco-22" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.waf_web_application_firewall;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=18;" value="Alibaba&amp;nbsp;&lt;div&gt;WAF&lt;/div&gt;" vertex="1">
           <mxGeometry height="61.46" width="70" x="700" y="791.41" as="geometry" />
         </mxCell>
-        <mxCell id="NmYCuwZnY43wRP365Lco-23" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.ddos_protection;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=18;" value="Anti-DOS" vertex="1">
+        <mxCell id="NmYCuwZnY43wRP365Lco-23" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.ddos_protection;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=18;" value="Alibaba&lt;div&gt;Anti-DOS&lt;/div&gt;" vertex="1">
           <mxGeometry height="80.15" width="70" x="450" y="785.23" as="geometry" />
         </mxCell>
         <mxCell id="NmYCuwZnY43wRP365Lco-24" edge="1" parent="1" source="NmYCuwZnY43wRP365Lco-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" target="NmYCuwZnY43wRP365Lco-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zNh2uaw5WR5MKGbkkYU2-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.oss_object_storage_service;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" value="&lt;b style=&quot;white-space: normal; font-size: 18px;&quot;&gt;Object Storage&lt;/b&gt;" vertex="1">
+        <mxCell id="zNh2uaw5WR5MKGbkkYU2-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.oss_object_storage_service;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" value="&lt;b style=&quot;white-space: normal; font-size: 18px;&quot;&gt;Alibaba Object Storage&lt;/b&gt;" vertex="1">
           <mxGeometry height="53" width="69.44" x="1445" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="zNh2uaw5WR5MKGbkkYU2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;CDN&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="91" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
