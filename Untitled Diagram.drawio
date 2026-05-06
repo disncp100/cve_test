@@ -68,43 +68,43 @@
           <mxGeometry height="23" width="23" x="370" y="179" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="1730" width="540" x="1200" y="-450" as="geometry" />
+          <mxGeometry height="1790" width="540" x="1200" y="-602.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-2" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=69;labelBackgroundColor=none;whiteSpace=wrap;autosizeText=0;" value="&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; font-style: normal; line-height: 20px;&quot; align=&quot;left&quot;&gt;The CDN routes static resources under the &lt;b&gt;www&lt;/b&gt; domain—such as &lt;b&gt;/static, /images, /js, and /css&lt;/b&gt;—to object storage.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="118" width="449" x="1269.5" y="-439" as="geometry" />
+          <mxGeometry height="118" width="449" x="1269.5" y="-591.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-3" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;convertToSvg=0;svgWhiteSpace=wrap;" value="&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;All API-related domains are excluded from CDN routing and connect directly to the Alibaba Cloud environment, including the &lt;b&gt;API Gateway &lt;/b&gt;and &lt;b&gt;central&lt;/b&gt; services.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="115" width="450" x="1268.5" y="-370" as="geometry" />
+          <mxGeometry height="115" width="450" x="1268.5" y="-522.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-4" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" value="&lt;div&gt;&lt;b&gt;Alibaba Cloud Anti-DDOS&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Web DDoS Protection&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Attack Analysis&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Cloud Monitoring &amp;amp; Alerts&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Packet Capture Analysis&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Infrastructure DDoS Protection&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Non‑Web DDoS Protection&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Custom Scenario Policies&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="165" width="450" x="1268.5" y="-295" as="geometry" />
+          <mxGeometry height="165" width="450" x="1268.5" y="-447.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-5" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fontColor=default;" value="&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-style: normal; font-weight: 400; line-height: 20px;&quot;&gt;&lt;font&gt;&lt;b&gt;Alibaba Cloud Web Application Firewall (WAF)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Application‑layer Protection (Layer 7)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Common Web Attack Defense&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Bot Management &amp;amp; Anti‑Automation&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;CC / Application‑Layer DDoS Protection&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;API Security&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Virtual Patching&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Fine‑Grained Access Control&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Threat Visibility &amp;amp; Logging&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Cloud‑Native Integration&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="202" width="440" x="1268.5" y="-124.5" as="geometry" />
+          <mxGeometry height="202" width="440" x="1268.5" y="-277" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-6" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" value="&lt;b&gt;Tencent EdgeOne&lt;/b&gt;&lt;br&gt;Web Application Firewall (WAF)&lt;br&gt;Bot Management&lt;br&gt;CC / Rate Limiting Protection&lt;br&gt;API Security&lt;br&gt;TLS / HTTPS Security&lt;br&gt;Access Control &amp;amp; Custom Rules&lt;br&gt;Edge CDN + Security Integration&lt;br&gt;ITraffic Visibility &amp;amp; Logging" vertex="1">
-          <mxGeometry height="181" width="450.5" x="1269.5" y="87" as="geometry" />
+          <mxGeometry height="181" width="450.5" x="1269.5" y="-65.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="1" vertex="1">
-          <mxGeometry height="23" width="23" x="1220" y="-432.5" as="geometry" />
+          <mxGeometry height="23" width="23" x="1220" y="-585" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="2" vertex="1">
-          <mxGeometry height="23" width="23" x="1220" y="-365.5" as="geometry" />
+          <mxGeometry height="23" width="23" x="1220" y="-518" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="3" vertex="1">
-          <mxGeometry height="23" width="23" x="1220" y="-294.5" as="geometry" />
+          <mxGeometry height="23" width="23" x="1220" y="-447" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="4" vertex="1">
-          <mxGeometry height="23" width="23" x="1219.9999999999995" y="-121" as="geometry" />
+          <mxGeometry height="23" width="23" x="1219.9999999999995" y="-273.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="5" vertex="1">
-          <mxGeometry height="23" width="23" x="1219.9999999999995" y="87" as="geometry" />
+          <mxGeometry height="23" width="23" x="1219.9999999999995" y="-65.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="6" vertex="1">
-          <mxGeometry height="23" width="23" x="1219.9999999999995" y="259" as="geometry" />
+          <mxGeometry height="23" width="23" x="1219.9999999999995" y="106.5" as="geometry" />
         </mxCell>
         <mxCell id="rI1JX8pW7Fap40Gf1UJg-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="7" vertex="1">
-          <mxGeometry height="23" width="23" x="1220" y="462.5" as="geometry" />
+          <mxGeometry height="23" width="23" x="1220" y="310" as="geometry" />
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-1" parent="1" style="sketch=0;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=12;fontStyle=0;fontColor=default;shape=image;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiYjeGE7CTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+JiN4YTsJLnN0MHtmaWxsOiM0Mjg1ZjQ7fSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qye2ZpbGw6I2FlY2JmYTt9JiN4YTsJPC9zdHlsZT4mI3hhOwk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTMuMTMgNS42M1YzLjIxTDEwIDB2Mi40MXptMy43NSA3LjVMMjAgMTBoLTIuNWwtMy4xMiAzLjEzem0tMTMuNzUgMEwwIDEwaDIuNWwzLjEzIDMuMTN6bTEwIDEuMjV2Mi40MUwxMCAyMHYtMi40MXoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPiYjeGE7CTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02Ljg4IDUuNjNMMTAgMi40MVYwTDYuODggMy4yMXpNMTcuNSAxMEgyMGwtMy4xMi0zLjEyaC0yLjV6bS0xNSAwSDBsMy4xMy0zLjEyaDIuNXptNC4zOCA0LjM4TDEwIDE3LjU5VjIwbC0zLjEyLTMuMjF6bTAtNy41aDYuMjV2Ni4yNUg2Ljg4eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+JiN4YTsJPHBhdGggY2xhc3M9InN0MSIgZD0iTTYuODggMTMuMTNsNi4yNS02LjI1djYuMjV6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4mI3hhOwk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTAgMTBsMy4xMy0zLjEydjYuMjV6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4mI3hhOzwvc3ZnPg==;" value="CDN" vertex="1">
           <mxGeometry height="52" width="52" x="249" y="202" as="geometry" />
@@ -218,22 +218,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-40" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fontColor=default;" value="&lt;div style=&quot;font-style: normal; font-weight: 400; line-height: 20px;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Alibaba Cloud OSS&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;&quot;&gt;Access Control (RAM &amp;amp; Bucket Policies)&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-weight: normal; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Data Encryption&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Secure Transmission (HTTPS)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Temporary Authorization (STS)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Anti‑Leech / Hotlink Protection&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Versioning &amp;amp; Data Protection&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Logging &amp;amp; Auditing&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Bucket Public Access Control&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;&quot;&gt;Cross‑Region Replication (Secure DR)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="207" width="400.5" x="1269.5" y="259" as="geometry" />
+          <mxGeometry height="207" width="400.5" x="1269.5" y="106.5" as="geometry" />
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-41" parent="1" style="text;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;fontColor=default;whiteSpace=wrap;fontStyle=0;html=1;" value="&lt;b&gt;Alibaba Cloud Firewall&lt;/b&gt;&lt;br&gt;North‑South Traffic Protection&lt;br&gt;East‑West Traffic Protection&lt;br&gt;Threat Detection &amp;amp; Intrusion Prevention&lt;br&gt;Outbound Traffic Control&lt;br&gt;Centralized Policy Management&lt;br&gt;Log Auditing &amp;amp; Traffic Visibility&lt;br&gt;Cloud‑Native Integration" vertex="1">
-          <mxGeometry height="160" width="332" x="1269.5" y="462.5" as="geometry" />
+          <mxGeometry height="160" width="332" x="1269.5" y="310" as="geometry" />
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-42" parent="1" style="text;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;fontColor=default;whiteSpace=wrap;fontStyle=0;html=1;" value="&lt;b&gt;Alibaba Cloud ALB&lt;/b&gt;&lt;br&gt;&lt;div&gt;HTTPS / TLS Termination&lt;/div&gt;&lt;div&gt;Certificate Management&lt;/div&gt;&lt;div&gt;Layer 7 Access Control (ACL)&lt;/div&gt;&lt;div&gt;Host‑ and Path‑Based Routing&lt;/div&gt;&lt;div&gt;Web Application Firewall (WAF) Integration&lt;/div&gt;&lt;div&gt;DDoS Protection Integration&lt;/div&gt;&lt;div&gt;Traffic Isolation &amp;amp; Segmentation&lt;/div&gt;&lt;div&gt;Session Persistence (Sticky Sessions)&lt;/div&gt;&lt;div&gt;Request Rate Limiting&lt;/div&gt;&lt;div&gt;Access Logging &amp;amp; Monitoring&lt;/div&gt;" vertex="1">
-          <mxGeometry height="220" width="410" x="1269.5" y="630" as="geometry" />
+          <mxGeometry height="220" width="410" x="1269.5" y="466.5" as="geometry" />
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="&lt;div&gt;8&lt;/div&gt;" vertex="1">
-          <mxGeometry height="23" width="23" x="1220" y="630" as="geometry" />
+          <mxGeometry height="23" width="23" x="1220" y="466.5" as="geometry" />
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-44" parent="1" style="text;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;fontColor=default;fontStyle=0;html=1;" value="&lt;div&gt;&lt;b&gt;Tyk API Gateway&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Authentication &amp;amp; Authorization&lt;/div&gt;Rate Limiting &amp;amp; Quotas&lt;br&gt;IP Whitelisting / Blacklisting&lt;br&gt;Request Validation" vertex="1">
-          <mxGeometry height="130" width="410" x="1265" y="863" as="geometry" />
+          <mxGeometry height="130" width="410" x="1265" y="681.5" as="geometry" />
         </mxCell>
         <mxCell id="FG55agyW4zOBL82r-jVb-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="9" vertex="1">
-          <mxGeometry height="23" width="23" x="1220" y="873" as="geometry" />
+          <mxGeometry height="23" width="23" x="1220" y="691.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FG55agyW4zOBL82r-jVb-46" parent="1" style="text;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;fontColor=default;fontStyle=0;html=1;" value="&lt;div&gt;Selected domains are served through &lt;b&gt;Alibaba Cloud CDN.&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30.5" width="401.5" x="1264.25" y="789.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FG55agyW4zOBL82r-jVb-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="10" vertex="1">
+          <mxGeometry height="23" width="23" x="1220" y="789.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FG55agyW4zOBL82r-jVb-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#4D9900;strokeColor=none;labelBackgroundColor=none;" value="11" vertex="1">
+          <mxGeometry height="23" width="23" x="1220" y="856.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FG55agyW4zOBL82r-jVb-50" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=0;html=1;" value="&lt;b&gt;Alibaba Cloud CDN&lt;/b&gt;&lt;br&gt;DDoS Protection Integration&lt;br&gt;HTTPS / TLS Encryption&lt;br&gt;Certificate Management&lt;br&gt;Hotlink Protection (Referer Control)&lt;br&gt;IP Access Control (Whitelist / Blacklist)&lt;br&gt;URL Signing / Token Authentication&lt;br&gt;WAF Integration&lt;br&gt;Geo‑Blocking&lt;br&gt;Rate Limiting&lt;br&gt;Edge Access Control Rules&lt;br&gt;Secure Origin Pull (Origin Protection)&lt;br&gt;Access Logging &amp;amp; Monitoring" vertex="1">
+          <mxGeometry height="220" width="400" x="1265" y="856.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
