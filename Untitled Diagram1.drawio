@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Consumer Protection Architecture" id="Twb49j5budwctSD8e1YO">
-    <mxGraphModel dx="1768" dy="2135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,17 +82,17 @@
             <mxPoint x="199.89" y="275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1oXLXAPsUK22WAYFjHIZ-23" parent="1oXLXAPsUK22WAYFjHIZ-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" value="TYK API Gateway&lt;br&gt;&lt;br&gt;• Authentication&lt;br&gt;• Throttling&lt;br&gt;• Request signing&lt;br&gt;• Schema validation" vertex="1">
-          <mxGeometry height="100" width="200" x="100" y="280" as="geometry" />
-        </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-24" parent="1oXLXAPsUK22WAYFjHIZ-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" value="Alibaba Cloud SLB/ALB&#xa;(Ingress)&#xa;&#xa;• Load balancing&#xa;• Health checks&#xa;• SSL offloading" vertex="1">
-          <mxGeometry height="100" width="200" x="100" y="420" as="geometry" />
+          <mxGeometry height="100" width="200" x="100" y="280" as="geometry" />
         </mxCell>
         <mxCell id="RGM0ptI9QJa7gyLHqMp--58" edge="1" parent="1oXLXAPsUK22WAYFjHIZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="199.88" y="380" as="sourcePoint" />
             <mxPoint x="199.88" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1oXLXAPsUK22WAYFjHIZ-23" parent="1oXLXAPsUK22WAYFjHIZ-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" value="TYK API Gateway&lt;br&gt;&lt;br&gt;• Authentication&lt;br&gt;• Throttling&lt;br&gt;• Request signing&lt;br&gt;• Schema validation" vertex="1">
+          <mxGeometry height="100" width="200" x="100" y="420" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-26" edge="1" parent="1" source="1oXLXAPsUK22WAYFjHIZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;" target="1oXLXAPsUK22WAYFjHIZ-16">
           <mxGeometry relative="1" as="geometry">
