@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Consumer Protection Architecture" id="Twb49j5budwctSD8e1YO">
-    <mxGraphModel dx="744" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1571" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,14 +37,17 @@
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-11" parent="1oXLXAPsUK22WAYFjHIZ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" value="Alibaba Cloud CDN + WAF (Supplementary)" vertex="1">
           <mxGeometry height="130" width="420" x="480" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="1oXLXAPsUK22WAYFjHIZ-12" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Alibaba Cloud CDN (static acceleration)" vertex="1">
+        <mxCell id="1oXLXAPsUK22WAYFjHIZ-12" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Alibaba Cloud CDN" vertex="1">
           <mxGeometry height="20" width="380" x="495" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="1oXLXAPsUK22WAYFjHIZ-13" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Alibaba Cloud WAF 3.0 (integrated with ALB)" vertex="1">
+        <mxCell id="1oXLXAPsUK22WAYFjHIZ-13" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Alibaba Cloud WAF 3.0&amp;nbsp;" vertex="1">
           <mxGeometry height="20" width="380" x="495" y="115" as="geometry" />
         </mxCell>
-        <mxCell id="1oXLXAPsUK22WAYFjHIZ-14" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Anti-DDoS (network layer)" vertex="1">
+        <mxCell id="1oXLXAPsUK22WAYFjHIZ-14" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Anti-DDoS" vertex="1">
           <mxGeometry height="20" width="380" x="495" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RGM0ptI9QJa7gyLHqMp--2" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ Bot Management" vertex="1">
+          <mxGeometry height="20" width="380" x="495" y="165" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-15" edge="1" parent="1" source="1oXLXAPsUK22WAYFjHIZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#666666;" target="1oXLXAPsUK22WAYFjHIZ-2">
           <mxGeometry relative="1" as="geometry" />
