@@ -11,7 +11,7 @@
           <mxGeometry height="340" width="920" x="70" y="72" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-3" parent="1oXLXAPsUK22WAYFjHIZ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" value="Tencent EdgeOne (Primary)" vertex="1">
-          <mxGeometry height="240" width="420" x="20" y="60" as="geometry" />
+          <mxGeometry height="220" width="420" x="20" y="60" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-4" parent="1oXLXAPsUK22WAYFjHIZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=11;" value="✓ CDN" vertex="1">
           <mxGeometry height="20" width="380" x="35" y="90" as="geometry" />
