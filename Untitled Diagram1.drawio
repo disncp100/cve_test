@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Consumer Protection Architecture" id="Twb49j5budwctSD8e1YO">
-    <mxGraphModel dx="1571" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="Internet Users&#xa;(Global &amp; China Mainland)" vertex="1">
-          <mxGeometry height="60" width="280" x="390" y="170" as="geometry" />
+          <mxGeometry height="60" width="280" x="390" y="-28" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;fontStyle=1;startSize=40;" value="EDGE LAYER" vertex="1">
-          <mxGeometry height="340" width="920" x="70" y="270" as="geometry" />
+          <mxGeometry height="340" width="920" x="70" y="72" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-3" parent="1oXLXAPsUK22WAYFjHIZ-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" value="Tencent EdgeOne (Primary)" vertex="1">
           <mxGeometry height="240" width="420" x="20" y="60" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;startSize=40;" value="STATIC CONTENT PATH" vertex="1">
-          <mxGeometry height="280" width="400" x="70" y="670" as="geometry" />
+          <mxGeometry height="280" width="400" x="70" y="530" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-17" parent="1oXLXAPsUK22WAYFjHIZ-16" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontFamily=Courier New;" value="Routes:&#xa;• /static/*&#xa;• /images/*&#xa;• /js/*&#xa;• /css/*&#xa;• /assets/*" vertex="1">
           <mxGeometry height="80" width="360" x="20" y="50" as="geometry" />
@@ -68,19 +68,28 @@
           <mxGeometry height="30" width="60" x="180" y="180" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;startSize=40;" value="DYNAMIC / API PATH" vertex="1">
-          <mxGeometry height="400" width="400" x="590" y="670" as="geometry" />
+          <mxGeometry height="540" width="400" x="590" y="530" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-22" parent="1oXLXAPsUK22WAYFjHIZ-21" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;fontFamily=Courier New;" value="Routes:&#xa;• /api/*&#xa;• /graphql&#xa;• /auth/*&#xa;• /v1/*, /v2/*" vertex="1">
           <mxGeometry height="70" width="360" x="20" y="50" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-23" parent="1oXLXAPsUK22WAYFjHIZ-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" value="Alibaba Cloud API Gateway&#xa;&#xa;• Authentication&#xa;• Throttling&#xa;• Request signing&#xa;• Schema validation" vertex="1">
-          <mxGeometry height="100" width="200" x="100" y="130" as="geometry" />
+          <mxGeometry height="100" width="200" x="100" y="275" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-24" parent="1oXLXAPsUK22WAYFjHIZ-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" value="Alibaba Cloud SLB/ALB&#xa;(Ingress)&#xa;&#xa;• Load balancing&#xa;• Health checks&#xa;• SSL offloading" vertex="1">
-          <mxGeometry height="100" width="200" x="100" y="260" as="geometry" />
+          <mxGeometry height="100" width="200" x="100" y="405" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-25" edge="1" parent="1oXLXAPsUK22WAYFjHIZ-21" source="1oXLXAPsUK22WAYFjHIZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;" target="1oXLXAPsUK22WAYFjHIZ-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGM0ptI9QJa7gyLHqMp--54" parent="1oXLXAPsUK22WAYFjHIZ-21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;align=center;" value="Alibaba Cloud Firewall&lt;br&gt;&lt;br&gt;• Authentication&lt;br&gt;• Throttling&lt;br&gt;• Request signing&lt;br&gt;• Schema validation" vertex="1">
+          <mxGeometry height="100" width="200" x="100" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="RGM0ptI9QJa7gyLHqMp--56" edge="1" parent="1oXLXAPsUK22WAYFjHIZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.89" y="245" as="sourcePoint" />
+            <mxPoint x="199.89" y="275" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-26" edge="1" parent="1" source="1oXLXAPsUK22WAYFjHIZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;" target="1oXLXAPsUK22WAYFjHIZ-16">
           <mxGeometry relative="1" as="geometry">
@@ -123,7 +132,7 @@
           <mxGeometry height="80" width="840" x="40" y="50" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-38" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;startSize=30;" value="LEGEND" vertex="1">
-          <mxGeometry height="180" width="200" x="1050" y="270" as="geometry" />
+          <mxGeometry height="180" width="200" x="1050" y="72" as="geometry" />
         </mxCell>
         <mxCell id="1oXLXAPsUK22WAYFjHIZ-39" parent="1oXLXAPsUK22WAYFjHIZ-38" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Edge Security" vertex="1">
           <mxGeometry height="20" width="180" x="10" y="40" as="geometry" />
